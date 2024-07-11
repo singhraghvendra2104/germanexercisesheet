@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Language Exercise Sheet</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>German Language Practice Sheet</h1>
+        <p>Please complete the exercises below and submit your answers.</p>
+    </header>
+    
+    <section class="exercise">
+        <h2>Multiple Choice Questions</h2>
+        <form>
+            <p>What is the capital of Germany?</p>
+            <input type="radio" id="berlin" name="capital" value="Berlin">
+            <label for="berlin">Berlin</label><br>
+            <input type="radio" id="munich" name="capital" value="Munich">
+            <label for="munich">Munich</label><br>
+            <input type="radio" id="frankfurt" name="capital" value="Frankfurt">
+            <label for="frankfurt">Frankfurt</label><br>
+            <input type="radio" id="hamburg" name="capital" value="Hamburg">
+            <label for="hamburg">Hamburg</label><br>
+        </form>
+    </section>
+    
+    <section class="exercise">
+        <h2>Fill in the Blanks</h2>
+        <form>
+            <p>Ich <input type="text" name="sein" placeholder="_____"> ein Student.</p>
+        </form>
+    </section>
+
+    <section class="exercise">
+        <h2>Listening Exercise</h2>
+        <audio controls>
+            <source src="audio/example-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <form>
+            <p>Listen to the audio and fill in the missing word: Ich habe <input type="text" name="missing-word" placeholder="_____"> Hund.</p>
+        </form>
+    </section>
+
+    <section class="exercise">
+        <h2>Matching Exercise</h2>
+        <p>Match the German words with their English translations:</p>
+        <table>
+            <tr>
+                <td>Hund</td>
+                <td>1. Dog</td>
+            </tr>
+            <tr>
+                <td>Katze</td>
+                <td>2. Cat</td>
+            </tr>
+            <tr>
+                <td>Vogel</td>
+                <td>3. Bird</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="submit-section">
+        <h2>Submit Your Answers</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 German Language Practice. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
